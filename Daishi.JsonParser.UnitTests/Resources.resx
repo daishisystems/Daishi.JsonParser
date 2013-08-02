@@ -1,0 +1,1014 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Invalid" xml:space="preserve">
+    <value>{
+    "snippet-format": "raw",
+    "total": 150,
+    "start": 1,
+    "page-length": 10,
+    "results": [
+        {
+            "index": 1,
+            "uri": "/lessonplan/JY14E_LP_1.1.1.1.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.1.1.xml\")",
+            "score": 2192,
+            "confidence": 0.0712232,
+            "fitness": 0.307883,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.1.1",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 1, Day 1",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "1",
+                            "lesson": "1"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 2,
+            "uri": "/lessonplan/JY14E_LP_1.1.1.2.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.1.2.xml\")",
+            "score": 1376,
+            "confidence": 0.05643,
+            "fitness": 0.243935,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.1.2",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 1, Day 2",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "1",
+                            "lesson": "2"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 3,
+            "uri": "/lessonplan/JY14E_LP_1.1.1.3.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.1.3.xml\")",
+            "score": 1676,
+            "confidence": 0.0622785,
+            "fitness": 0.269217,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.1.3",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 1, Day 3",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "1",
+                            "lesson": "3"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 4,
+            "uri": "/lessonplan/JY14E_LP_1.1.1.4.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.1.4.xml\")",
+            "score": 1376,
+            "confidence": 0.05643,
+            "fitness": 0.243935,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.1.4",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 1, Day 4",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "1",
+                            "lesson": "4"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 5,
+            "uri": "/lessonplan/JY14E_LP_1.1.1.5.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.1.5.xml\")",
+            "score": 1433,
+            "confidence": 0.0575869,
+            "fitness": 0.248936,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.1.5",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 1, Day 5",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "1",
+                            "lesson": "5"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 6,
+            "uri": "/lessonplan/JY14E_LP_1.1.2.1.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.2.1.xml\")",
+            "score": 2256,
+            "confidence": 0.0722554,
+            "fitness": 0.312345,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.2.1",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 2, Day 1",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "2",
+                            "lesson": "1"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 7,
+            "uri": "/lessonplan/JY14E_LP_1.1.2.2.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.2.2.xml\")",
+            "score": 1376,
+            "confidence": 0.05643,
+            "fitness": 0.243935,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.2.2",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 2, Day 2",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "2",
+                            "lesson": "2"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 8,
+            "uri": "/lessonplan/JY14E_LP_1.1.2.3.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.2.3.xml\")",
+            "score": 1676,
+            "confidence": 0.0622785,
+            "fitness": 0.269217,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.2.3",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 2, Day 3",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "2",
+                            "lesson": "3"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 9,
+            "uri": "/lessonplan/JY14E_LP_1.1.2.4.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.2.4.xml\")",
+            "score": 1376,
+            "confidence": 0.05643,
+            "fitness": 0.243935,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.2.4",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 2, Day 4",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "2",
+                            "lesson": "4"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 10,
+            "uri": "/lessonplan/JY14E_LP_1.1.2.5.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.2.5.xml\")",
+            "score": 1433,
+            "confidence": 0.0575869,
+            "fitness": 0.248936,
+            "content": {
+                "lesson_plan": [
+                    {}
+                ]
+            }
+        }
+    ]
+}</value>
+  </data>
+  <data name="JSON" xml:space="preserve">
+    <value>{
+    "snippet-format": "raw",
+    "total": 150,
+    "start": 1,
+    "page-length": 10,
+    "results": [
+        {
+            "index": 1,
+            "uri": "/lessonplan/JY14E_LP_1.1.1.1.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.1.1.xml\")",
+            "score": 2192,
+            "confidence": 0.0712232,
+            "fitness": 0.307883,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.1.1",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 1, Day 1",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "1",
+                            "lesson": "1"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 2,
+            "uri": "/lessonplan/JY14E_LP_1.1.1.2.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.1.2.xml\")",
+            "score": 1376,
+            "confidence": 0.05643,
+            "fitness": 0.243935,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.1.2",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 1, Day 2",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "1",
+                            "lesson": "2"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 3,
+            "uri": "/lessonplan/JY14E_LP_1.1.1.3.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.1.3.xml\")",
+            "score": 1676,
+            "confidence": 0.0622785,
+            "fitness": 0.269217,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.1.3",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 1, Day 3",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "1",
+                            "lesson": "3"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 4,
+            "uri": "/lessonplan/JY14E_LP_1.1.1.4.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.1.4.xml\")",
+            "score": 1376,
+            "confidence": 0.05643,
+            "fitness": 0.243935,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.1.4",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 1, Day 4",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "1",
+                            "lesson": "4"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 5,
+            "uri": "/lessonplan/JY14E_LP_1.1.1.5.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.1.5.xml\")",
+            "score": 1433,
+            "confidence": 0.0575869,
+            "fitness": 0.248936,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.1.5",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 1, Day 5",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "1",
+                            "lesson": "5"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 6,
+            "uri": "/lessonplan/JY14E_LP_1.1.2.1.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.2.1.xml\")",
+            "score": 2256,
+            "confidence": 0.0722554,
+            "fitness": 0.312345,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.2.1",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 2, Day 1",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "2",
+                            "lesson": "1"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 7,
+            "uri": "/lessonplan/JY14E_LP_1.1.2.2.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.2.2.xml\")",
+            "score": 1376,
+            "confidence": 0.05643,
+            "fitness": 0.243935,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.2.2",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 2, Day 2",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "2",
+                            "lesson": "2"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 8,
+            "uri": "/lessonplan/JY14E_LP_1.1.2.3.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.2.3.xml\")",
+            "score": 1676,
+            "confidence": 0.0622785,
+            "fitness": 0.269217,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.2.3",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 2, Day 3",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "2",
+                            "lesson": "3"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 9,
+            "uri": "/lessonplan/JY14E_LP_1.1.2.4.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.2.4.xml\")",
+            "score": 1376,
+            "confidence": 0.05643,
+            "fitness": 0.243935,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.2.4",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 2, Day 4",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "2",
+                            "lesson": "4"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "index": 10,
+            "uri": "/lessonplan/JY14E_LP_1.1.2.5.xml",
+            "path": "fn:doc(\"/lessonplan/JY14E_LP_1.1.2.5.xml\")",
+            "score": 1433,
+            "confidence": 0.0575869,
+            "fitness": 0.248936,
+            "content": {
+                "lesson_plan": [
+                    {
+                        "id": "JY14E_LP_1.1.2.5",
+                        "duration": 90,
+                        "hierarchy": 1,
+                        "title": "Journeys: Lesson 2, Day 5",
+                        "levels": {
+                            "grade": "1",
+                            "unit": "1",
+                            "chapter": "2",
+                            "lesson": "5"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "facets": {
+        "program": {
+            "type": "xs:string",
+            "facetValues": [
+                {
+                    "name": "Journeys",
+                    "count": 150,
+                    "value": "Journeys"
+                }
+            ]
+        },
+        "grade": {
+            "type": "xs:string",
+            "facetValues": [
+                {
+                    "name": "1",
+                    "count": 150,
+                    "value": "1"
+                }
+            ]
+        },
+        "assignable": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "author": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "book": {
+            "type": "xs:int",
+            "facetValues": []
+        },
+        "chapter": {
+            "type": "xs:int",
+            "facetValues": [
+                {
+                    "name": "1",
+                    "count": 5,
+                    "value": "1"
+                },
+                {
+                    "name": "2",
+                    "count": 5,
+                    "value": "2"
+                },
+                {
+                    "name": "3",
+                    "count": 5,
+                    "value": "3"
+                },
+                {
+                    "name": "4",
+                    "count": 5,
+                    "value": "4"
+                },
+                {
+                    "name": "5",
+                    "count": 5,
+                    "value": "5"
+                },
+                {
+                    "name": "6",
+                    "count": 5,
+                    "value": "6"
+                },
+                {
+                    "name": "7",
+                    "count": 5,
+                    "value": "7"
+                },
+                {
+                    "name": "8",
+                    "count": 5,
+                    "value": "8"
+                },
+                {
+                    "name": "9",
+                    "count": 5,
+                    "value": "9"
+                },
+                {
+                    "name": "10",
+                    "count": 5,
+                    "value": "10"
+                }
+            ]
+        },
+        "collection": {
+            "type": "xs:int",
+            "facetValues": []
+        },
+        "component": {
+            "type": "xs:string",
+            "facetValues": [
+                {
+                    "name": "Lesson Plan",
+                    "count": 150,
+                    "value": "Lesson Plan"
+                }
+            ]
+        },
+        "component_type": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "day": {
+            "type": "xs:int",
+            "facetValues": []
+        },
+        "dra_level": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "enrich": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "freeplay": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "genres": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "guided_reading_levels": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "instructional_path": {
+            "type": "xs:string",
+            "facetValues": [
+                {
+                    "name": "Advanced",
+                    "count": 150,
+                    "value": "Advanced"
+                },
+                {
+                    "name": "Daily Language",
+                    "count": 150,
+                    "value": "Daily Language"
+                },
+                {
+                    "name": "English Language Learners",
+                    "count": 150,
+                    "value": "English Language Learners"
+                },
+                {
+                    "name": "Foundational Skills",
+                    "count": 120,
+                    "value": "Foundational Skills"
+                },
+                {
+                    "name": "On Level",
+                    "count": 150,
+                    "value": "On Level"
+                },
+                {
+                    "name": "Skills and Strategies",
+                    "count": 150,
+                    "value": "Skills and Strategies"
+                },
+                {
+                    "name": "Spelling, Grammar and Writing",
+                    "count": 150,
+                    "value": "Spelling, Grammar and Writing"
+                },
+                {
+                    "name": "Struggling Readers",
+                    "count": 150,
+                    "value": "Struggling Readers"
+                }
+            ]
+        },
+        "language": {
+            "type": "xs:string",
+            "facetValues": [
+                {
+                    "name": "en-US",
+                    "count": 150,
+                    "value": "en-US"
+                }
+            ]
+        },
+        "lesson": {
+            "type": "xs:int",
+            "facetValues": [
+                {
+                    "name": "1",
+                    "count": 30,
+                    "value": "1"
+                },
+                {
+                    "name": "2",
+                    "count": 30,
+                    "value": "2"
+                },
+                {
+                    "name": "3",
+                    "count": 30,
+                    "value": "3"
+                },
+                {
+                    "name": "4",
+                    "count": 30,
+                    "value": "4"
+                },
+                {
+                    "name": "5",
+                    "count": 30,
+                    "value": "5"
+                }
+            ]
+        },
+        "lesson_subject": {
+            "type": "xs:string",
+            "facetValues": [
+                {
+                    "name": "Reading and Language Arts",
+                    "count": 150,
+                    "value": "Reading and Language Arts"
+                }
+            ]
+        },
+        "level_type": {
+            "type": "xs:string",
+            "facetValues": [
+                {
+                    "name": "chapter",
+                    "count": 150,
+                    "value": "chapter"
+                },
+                {
+                    "name": "grade",
+                    "count": 150,
+                    "value": "grade"
+                },
+                {
+                    "name": "lesson",
+                    "count": 150,
+                    "value": "lesson"
+                },
+                {
+                    "name": "unit",
+                    "count": 150,
+                    "value": "unit"
+                }
+            ]
+        },
+        "lexile_level®": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "media_type": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "program_organization": {
+            "type": "xs:string",
+            "facetValues": [
+                {
+                    "name": "Language Arts",
+                    "count": 30,
+                    "value": "Language Arts"
+                },
+                {
+                    "name": "Small Group Instruction",
+                    "count": 60,
+                    "value": "Small Group Instruction"
+                },
+                {
+                    "name": "Whole Group Instruction",
+                    "count": 150,
+                    "value": "Whole Group Instruction"
+                }
+            ]
+        },
+        "reader_level": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "reading_recovery_levels": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "reading_skills": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "resource_subject": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "resource_type": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "reteach": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "standard": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "unit": {
+            "type": "xs:int",
+            "facetValues": [
+                {
+                    "name": "1",
+                    "count": 25,
+                    "value": "1"
+                },
+                {
+                    "name": "2",
+                    "count": 25,
+                    "value": "2"
+                },
+                {
+                    "name": "3",
+                    "count": 25,
+                    "value": "3"
+                },
+                {
+                    "name": "4",
+                    "count": 25,
+                    "value": "4"
+                },
+                {
+                    "name": "5",
+                    "count": 25,
+                    "value": "5"
+                },
+                {
+                    "name": "6",
+                    "count": 25,
+                    "value": "6"
+                }
+            ]
+        },
+        "volume": {
+            "type": "xs:int",
+            "facetValues": []
+        },
+        "level0_title": {
+            "type": "xs:string",
+            "facetValues": [
+                {
+                    "name": "",
+                    "count": 150,
+                    "value": ""
+                }
+            ]
+        },
+        "level1_title": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "level2_title": {
+            "type": "xs:string",
+            "facetValues": [
+                {
+                    "name": "",
+                    "count": 150,
+                    "value": ""
+                }
+            ]
+        },
+        "level3_title": {
+            "type": "xs:string",
+            "facetValues": [
+                {
+                    "name": "",
+                    "count": 150,
+                    "value": ""
+                }
+            ]
+        },
+        "level4_title": {
+            "type": "xs:string",
+            "facetValues": []
+        },
+        "level5_title": {
+            "type": "xs:string",
+            "facetValues": [
+                {
+                    "name": "",
+                    "count": 150,
+                    "value": ""
+                }
+            ]
+        },
+        "level6_title": {
+            "type": "xs:string",
+            "facetValues": []
+        }
+    },
+    "qtext": "program:Journeys grade:1 orgID:88z25994@TCK",
+    "metrics": {
+        "query-resolution-time": "PT0.285432S",
+        "facet-resolution-time": "PT0.142055S",
+        "snippet-resolution-time": "PT0.232762S",
+        "total-time": "PT0.661251S"
+    }
+}</value>
+  </data>
+</root>

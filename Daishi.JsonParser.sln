@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daishi.JsonParser", "Daishi.JsonParser\Daishi.JsonParser.csproj", "{B4690246-E6A3-4411-8FF9-C94324A89A5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daishi.JsonParser.UnitTests", "Daishi.JsonParser.UnitTests\Daishi.JsonParser.UnitTests.csproj", "{29517ADF-E1B5-4E30-9D3C-2A802536CF7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{56E7EC0B-0F44-4AB4-84F2-69DB383627FE}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4690246-E6A3-4411-8FF9-C94324A89A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4690246-E6A3-4411-8FF9-C94324A89A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4690246-E6A3-4411-8FF9-C94324A89A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4690246-E6A3-4411-8FF9-C94324A89A5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29517ADF-E1B5-4E30-9D3C-2A802536CF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29517ADF-E1B5-4E30-9D3C-2A802536CF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29517ADF-E1B5-4E30-9D3C-2A802536CF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29517ADF-E1B5-4E30-9D3C-2A802536CF7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
