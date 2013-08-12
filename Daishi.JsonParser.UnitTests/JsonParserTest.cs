@@ -25,7 +25,7 @@ namespace Daishi.JsonParser.UnitTests {
             jsonParser.Parse();
 
             const int expectedCount = 10;
-            Assert.AreEqual(expectedCount, jsonParser.Result.Count);
+            Assert.AreEqual(expectedCount, jsonParser.Result.Count());
 
             const string expectedExternalId = @"JY14E_LP_1.1.1.1";
             Assert.AreEqual(expectedExternalId, jsonParser.Result.First().Id);
@@ -68,7 +68,7 @@ namespace Daishi.JsonParser.UnitTests {
             var jsonParser = new DummyJsonParser(stream.Write(), @"incorrect_property");
             jsonParser.Parse();
 
-            Assert.AreEqual(0, jsonParser.Result.Count);
+            Assert.AreEqual(0, jsonParser.Result.Count());
         }
 
         [Test]
@@ -79,7 +79,7 @@ namespace Daishi.JsonParser.UnitTests {
             var jsonParser = new DummyJsonParser(stream.Write(), @"lesson_plan");
             jsonParser.Parse();
 
-            Assert.AreEqual(10, jsonParser.Result.Count);
+            Assert.AreEqual(10, jsonParser.Result.Count());
         }
     }
 }

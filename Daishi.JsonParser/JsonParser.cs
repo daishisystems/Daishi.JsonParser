@@ -7,17 +7,15 @@ using Newtonsoft.Json;
 #endregion
 
 namespace Daishi.JsonParser {
-    public abstract class JsonParser<TParsable> where TParsable : class, new() {
+    public abstract class JsonParser<TParsable> : IParser<TParsable> where TParsable : class, new() {
         private readonly Stream json;
         private readonly string jsonPropertyName;
 
-        public List<TParsable> Result { get; private set; }
+        public IEnumerable<TParsable> Result { get; private set; }
 
         protected JsonParser(Stream json, string jsonPropertyName) {
             this.json = json;
             this.jsonPropertyName = jsonPropertyName;
-
-            Result = new List<TParsable>();
         }
 
         protected abstract void Build(TParsable parsable, JsonTextReader reader);
@@ -29,6 +27,8 @@ namespace Daishi.JsonParser {
         public void Parse() {
             using (var streamReader = new StreamReader(json)) {
                 using (var jsonReader = new JsonTextReader(streamReader)) {
+                    var result = new List<TParsable>();
+
                     do {
                         jsonReader.Read();
                         if (jsonReader.Value == null || !jsonReader.Value.Equals(jsonPropertyName)) continue;
@@ -44,8 +44,10 @@ namespace Daishi.JsonParser {
                             jsonReader.Read();
                         } while (!IsBuilt(parsable, jsonReader));
 
-                        Result.Add(parsable);
+                        result.Add(parsable);
                     } while (!jsonReader.TokenType.Equals(JsonToken.None));
+
+                    Result = result;
                 }
             }
         }
